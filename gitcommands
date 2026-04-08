@@ -21,3 +21,82 @@ git config --global user.email OR git config --list
 Git Commands organized by category:
 - **Setup & Config**
 
+**Git Commands Used:**
+
+git init
+
+git status
+
+git config --global user.name "Mention name"
+
+git config --global user.email "mention email"
+
+**Note:** If we remove --global from the above command we can set the configuration locally as well **Eg:** git config user.name "sonali"
+
+**To verify the Configuratopn details used command:**
+
+git config --global user.name
+
+git config --global user.email OR git config --list
+
+**Note:** **Global config is stored in: ~/.gitconfig** And **Local config is stored in: .git/config inside your repo**
+
+Git Commands organized by category:
+- **Setup & Config**
+
+1. git config: Sets username, email, and other Git configurations.
+
+2. git init: Initializes a new Git repository
+
+3. git clone: Copies an existing repository from remote to local
+
+- **Basic Workflow**
+
+1. **git status:** Shows current state of files (staged, unstaged, untracked)
+
+2. **git add:** Adds files to staging area Eg: git add . [To add all the files and directories etc] Also we can mention specif file name to add
+
+3. **git commit:** Saves staged changes with a message
+
+4. **git push:** Uploads local commits to remote repository
+
+5. **git pull:** Fetches and merges changes from remote repo
+
+- **Viewing Changes**
+
+6. **git log:** Shows commit history
+
+7. **git diff:** Shows differences between file versions
+
+8. **git show:** Displays details of a specific commit
+
+10. **git branch:** Lists or creates branches
+
+11. **git checkout:** Switches between branches
+
+**To push the code to the new repository for the first time/New repository use below commands:**
+
+1. git init
+
+2. git add README.md
+
+3. git commit -m "first commit"
+
+4. git branch -M main
+
+5. git remote add origin https://github.com/sonali091023/gitcommands.git
+
+6. git push -u origin main
+
+**To push the code to existing repository use commands:**
+
+1. git remote add origin https://github.com/sonali091023/gitcommands.git
+
+2. git branch -M main
+
+3. git push -u origin main
+
+
+
+    
+    
