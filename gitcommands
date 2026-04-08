@@ -1,0 +1,25 @@
+**Git Commands Used:**
+
+git init
+
+git status
+
+git config --global user.name "Mention name"
+
+git config --global user.email "mention email"
+
+**Note:** If we remove --global from the above command we can set the configuration locally as well **Eg:** git config user.name "sonali"
+
+**To verify the Configuratopn details used command:**
+
+git config --global user.name
+
+git config --global user.email OR git config --list
+
+**Note:** **Global config is stored in: ~/.gitconfig** And **Local config is stored in: .git/config inside your repo**
+
+Git Commands organized by category:
+- **Setup & Config**
+
+1. git config: Sets username, email, and other Git configurations.
+
